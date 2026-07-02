@@ -1,0 +1,17 @@
+README
+1) How to assemble motion sensing device can be found from the websites located in the references section of the project report.
+2) To run the code, download the Arduino IDE from Arduino’s website here: https://www.arduino.cc/en/main/software
+3)  To run the python code, make sure you have python installed on you machine, as well as the python IDLE to run the script, and install pyserial and pyautoGUI using pip from the command line:
+      python –m pip install –upgrade pip
+     python –m pip install pyserial
+     python –m pip install pyautogui
+
+4) To compile and run all programs
+
+Hook up Arduino board to computer via USB
+
+Run Arduino code from IDE, should get thank you message  within Arduino IDE if compiled and uploaded successfully to the board.
+
+Run python script by opening script file from Python IDLE, then click run , run module from toolbar
+
+Board and computer should be communicating in sync, and everything should be working as described in the report.
